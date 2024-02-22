@@ -14,6 +14,5 @@ func main() {
 
 	fmt.Println("Rodando api")
 	r := router.Gerar()
-
-	log.Fatal(http.ListenAndServe(fmt.Sprint(":%d", config.Porta), r))
+	log.Fatal(http.ListenAndServe(":5000", r))
 }

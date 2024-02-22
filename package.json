@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create": "^0.0.2",
     "mysql": "^2.18.1"
   }
 }
